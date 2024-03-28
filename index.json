@@ -1,0 +1,39 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "http://localhost:8887/iiif//index.json",
+    "type": "Collection",
+    "label": {
+        "none": [
+            "My IIIF Collection"
+        ]
+    },
+    "thumbnail": [
+        {
+            "id": "http://localhost:8887/iiif//2/29cb9d3e5856d64ccaba1305f8ad3ac3/full/300,190/0/default.jpeg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 190,
+            "width": 300
+        }
+    ],
+    "items": [
+        {
+            "id": "http://localhost:8887/iiif//2/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "Cores-de-gatos-scaled"
+                ]
+            }
+        },
+        {
+            "id": "http://localhost:8887/iiif//1/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "2021-05-12-como-deixar-os-gatos-mais-tranquilos"
+                ]
+            }
+        }
+    ]
+}

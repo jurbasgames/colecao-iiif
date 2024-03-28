@@ -1,0 +1,28 @@
+{
+  "@context": "http://iiif.io/api/image/3/context.json",
+  "id": "http://localhost:8887/iiif//1/c9686c3d952c9d1023415d1655433bcb",
+  "type": "ImageService3",
+  "profile": "level0",
+  "protocol": "http://iiif.io/api/image",
+  "tiles": [
+    {
+      "scaleFactors": [
+        1,
+        2
+      ],
+      "width": 256
+    }
+  ],
+  "width": 968,
+  "height": 506,
+  "sizes": [
+    {
+      "width": 300,
+      "height": 157
+    },
+    {
+      "width": 2000,
+      "height": 1045
+    }
+  ]
+}
