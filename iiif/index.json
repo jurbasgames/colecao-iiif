@@ -1,39 +1,33 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://colecao-iiif.vercel.app/index.json",
-    "type": "Collection",
-    "label": {
-        "none": [
-            "My IIIF Collection"
-        ]
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://colecao-iiif.vercel.app/index.json",
+  "type": "Collection",
+  "label": {
+    "none": ["My IIIF Collection"]
+  },
+  "thumbnail": [
+    {
+      "id": "https://colecao-iiif.vercel.app/1/c9686c3d952c9d1023415d1655433bcb/full/300,157/0/default.webp",
+      "type": "Image",
+      "format": "image/webp",
+      "height": 157,
+      "width": 300
+    }
+  ],
+  "items": [
+    {
+      "id": "https://colecao-iiif.vercel.app/1/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": ["2021-05-12-como-deixar-os-gatos-mais-tranquilos"]
+      }
     },
-    "thumbnail": [
-        {
-            "id": "https://colecao-iiif.vercel.app/1/c9686c3d952c9d1023415d1655433bcb/full/300,157/0/default.webp",
-            "type": "Image",
-            "format": "image/webp",
-            "height": 157,
-            "width": 300
-        }
-    ],
-    "items": [
-        {
-            "id": "https://colecao-iiif.vercel.app/1/manifest.json",
-            "type": "Manifest",
-            "label": {
-                "none": [
-                    "2021-05-12-como-deixar-os-gatos-mais-tranquilos"
-                ]
-            }
-        },
-        {
-            "id": "https://colecao-iiif.vercel.app/2/manifest.json",
-            "type": "Manifest",
-            "label": {
-                "none": [
-                    "Cores-de-gatos-scaled"
-                ]
-            }
-        }
-    ]
+    {
+      "id": "https://colecao-iiif.vercel.app/2/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": ["Cores-de-gatos-scaled"]
+      }
+    }
+  ]
 }
