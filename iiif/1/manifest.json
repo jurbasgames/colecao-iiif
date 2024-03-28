@@ -1,6 +1,6 @@
 {
     "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "http://localhost:8887/iiif//1/manifest.json",
+    "id": "https://colecao-iiif.vercel.app/1/manifest.json",
     "type": "Manifest",
     "label": {
         "none": [
@@ -10,7 +10,7 @@
     "rights": "https://rightsstatements.org/page/CNE/1.0/",
     "thumbnail": [
         {
-            "id": "http://localhost:8887/iiif//1/c9686c3d952c9d1023415d1655433bcb/full/300,157/0/default.webp",
+            "id": "https://colecao-iiif.vercel.app/1/c9686c3d952c9d1023415d1655433bcb/full/300,157/0/default.webp",
             "type": "Image",
             "format": "image/webp",
             "height": 157,
@@ -30,29 +30,29 @@
     ],
     "items": [
         {
-            "id": "http://localhost:8887/iiif//1/canvas/0",
+            "id": "https://colecao-iiif.vercel.app/1/canvas/0",
             "type": "Canvas",
             "height": 506,
             "width": 968,
             "items": [
                 {
-                    "id": "http://localhost:8887/iiif//1/canvas/0/annotation-page",
+                    "id": "https://colecao-iiif.vercel.app/1/canvas/0/annotation-page",
                     "type": "AnnotationPage",
                     "items": [
                         {
-                            "id": "http://localhost:8887/iiif//1/annotation/0",
+                            "id": "https://colecao-iiif.vercel.app/1/annotation/0",
                             "type": "Annotation",
                             "motivation": "painting",
-                            "target": "http://localhost:8887/iiif//1/canvas/0",
+                            "target": "https://colecao-iiif.vercel.app/1/canvas/0",
                             "body": {
-                                "id": "http://localhost:8887/iiif//1/c9686c3d952c9d1023415d1655433bcb/full/2000,1045/0/default.webp",
+                                "id": "https://colecao-iiif.vercel.app/1/c9686c3d952c9d1023415d1655433bcb/full/2000,1045/0/default.webp",
                                 "type": "Image",
                                 "format": "image/webp",
                                 "height": 1045,
                                 "width": 2000,
                                 "service": [
                                     {
-                                        "id": "http://localhost:8887/iiif//1/c9686c3d952c9d1023415d1655433bcb",
+                                        "id": "https://colecao-iiif.vercel.app/1/c9686c3d952c9d1023415d1655433bcb",
                                         "type": "ImageService3",
                                         "profile": "http://iiif.io/api/image/3/level0.json"
                                     }

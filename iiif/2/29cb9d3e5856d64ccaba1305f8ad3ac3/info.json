@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/3/context.json",
-  "id": "http://localhost:8887/iiif//2/29cb9d3e5856d64ccaba1305f8ad3ac3",
+  "id": "https://colecao-iiif.vercel.app/2/29cb9d3e5856d64ccaba1305f8ad3ac3",
   "type": "ImageService3",
   "profile": "level0",
   "protocol": "http://iiif.io/api/image",
